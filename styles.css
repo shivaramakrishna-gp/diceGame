@@ -1,0 +1,64 @@
+h1 {
+    background-color: black;  border-width: 2px; border-style: solid; border-color: hsl(0, 0%, 23%);
+    font-size: 30px; position: absolute; top: 10px; left : 520px;height: 40px;width: 180px;
+    color: rgba(180, 48, 0, 0.836); border-radius: 25px;
+   }
+#player{
+    font-size: 30px;width: 280px; position: absolute; top: 80px; left : 470px;color: white; background-color: black;
+    border-radius: 25px;border-width: 1px; border-style: dashed;border-color: rgb(255, 14, 14);
+    animation: myanim 1s infinite;
+}
+@keyframes myanim {
+    20% {
+       border-color: rgb(255, 255, 255);
+ }
+}
+.area {
+    position: absolute;height: 400px; top: 200px; left: 250px; right: 450px; width: 750px; border-radius: 25px; border-color: black;
+    background-color: rgb(0, 0, 0); 
+}
+#dice1 {
+     height: 150px; top: 50px; left: 175px; width: 175px;
+    position: absolute;
+}
+#dice2 {
+     height: 150px; top: 50px; right: 175px; width: 175px;
+    position: absolute;
+}
+.winner {
+    position: absolute;height: 50px; top: 500px; left: 550px; width: 120px; border-radius: 25px; border-color: black;
+    background-color: rgb(53, 53, 53);
+}
+#button1{
+    position: absolute;top: 15px;left: 25px;
+
+}
+#bg{
+    height: 100%; width: 100%;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: black;
+}
+.firstPic{   
+        position: absolute;top: 240px;left: 420px;
+        height: 180px; width: 180px;
+        
+    }
+.secondPic{
+    position: absolute;top: 240px;left: 650px;
+    height: 180px; width: 180px;
+    }
+
+#P1{
+    font-size: 30px; position: absolute; top: 200px; left : 230px; border: 2px outset black ;
+    color: white; background-color: black;
+}
+#P2{
+    font-size: 30px; position: absolute; top: 200px; left : 460px; border: 2px outset black ;
+    color: white; background-color: black;
+}
+#P3{
+    font-size: 12px; position: absolute; top: 350px; left : 500px; border: 2px outset black ;
+    color: white; background-color: black; font-style: italic;
+}
